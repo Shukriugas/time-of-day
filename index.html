@@ -94,6 +94,7 @@
 	
 	let myDate = new Date();
 	let myHour = myDate.getHours();
+	let myWeek =myWeek.day();
 	let myGreeting="";
 	let myColor="";
 	let myPic ="";
@@ -133,6 +134,9 @@
 
 	//change the image
 	document.getElementById("my-pic").src = myPic;
+
+	//change the day of the week
+	document.getElementById(myWeek).innerHTML = myWeek
 
 </script>
 </body>
